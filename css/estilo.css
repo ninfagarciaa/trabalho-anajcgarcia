@@ -1,0 +1,428 @@
+/*COR DE FUNDO PAGINAS*/
+.corpo-index{
+  background-color: #f0e8e8;
+  cursor: url("imagensestrelac.png"), auto ;
+}
+
+.corpo-sobre{
+  background-color: #f0e8e8;
+  
+}
+
+.corpo-formacao{
+  background-color: #f0e8e8;
+  
+}
+
+.corpo-portfolio{
+  background-color: #e2dbd8;
+}
+
+.corpo-contato{
+  background-color: #f0e8e8;
+  
+}
+/*VOLTE AO INICIO CAIXA*/
+.voltarmenu {
+  position: absolute;
+  background-color: #000000;
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*----------------PAGINA INDEX---------------- */
+.foto-perfil {
+  width: 430px;
+  height: 430px;
+  position:absolute;
+  bottom: 150px;
+  right: 51%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.foto-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: zoom-in;
+}
+
+/* menu e texto */
+.apresentacao {
+  position: absolute;
+  top: 330px;
+  left: 61%;
+  transform: translate(-30%, -65%);
+  text-align:left;
+}
+/*olatudobem*/
+ .apresentacao h1{
+  font-size: 60px;
+  margin-bottom: -5px;
+  
+}
+.tema-trab{
+  color: #807977;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -14px;
+  font-family: 'Segoe UI';
+}
+.bem-vindos{
+  font-size: 20px;
+}
+
+/***TEXTOS FLUTUANTES***/
+.sobremimstyle{
+  position: fixed;
+  bottom: 140px;
+  right: 630px;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 80%;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:'Segoe UI';  
+}
+
+.portfoliostyle{
+  position: fixed;
+  bottom: 140px;
+  right: 464px;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 80%;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:'Segoe UI';  
+}
+
+.formacaostyle{
+  position: fixed;
+  bottom: 140px;
+  right: 300px;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 80%;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:'Segoe UI';  
+}
+
+.myname {
+  font-size: 14px;
+  color: #807977;
+  position: absolute;
+  bottom: -20px;
+  right: 45%;
+  cursor: default;
+}
+
+/***estrelas***/
+
+.estrela1{
+  background: none;
+  background-color: transparent;
+  font-size: 100px;
+  position: fixed;
+  bottom: 490px;
+  left: 50px;
+  z-index: -1; 
+} 
+.estrela2{
+  background: none;
+  background-color: transparent;
+  font-size: 100px;
+  position: fixed;
+  bottom: 225px;
+  left: 50px;
+  z-index: -1; 
+
+} 
+.estrela3{
+  background: none;
+  background-color: transparent;
+  font-size: 100px;
+  position: fixed;
+  bottom: -40px;
+  left: 50px;
+  z-index: -1; 
+}      
+
+
+/*--------------PAGINA SOBRE MIM---------------*/
+
+.sobre-apresentacao1{
+  color: #000000;
+  position:absolute;
+  text-align: center;
+  bottom: 65%;
+  left: 175px;
+  font-size: 21px;
+  background-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  
+}
+
+.linhadequebra1{
+  position: absolute;
+  background-color: #000000;
+  bottom: 51%;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  border-radius: 40%;
+
+}
+/****FOTOS E CONF DA PAGINA SOBRE MIM****/
+.foto-praia img{
+  position: fixed;
+  width: 17.7%;
+  bottom: 50px;
+  left: 14.2%;
+  border-radius: 5% 20%;
+}
+
+.plinio img{
+  position: fixed;
+  width: 15%;
+  bottom: 32%;
+  left: 33.8%;
+  border-radius: 5% 20%;
+}
+
+.plinio-sentado img{
+  position: fixed;
+  width: 15%;
+  bottom: 50px;
+  left: 33.8%;
+  border-radius: 5% 20%;
+}
+
+.eu-e-ele img{
+  position: fixed;
+  width: 15%;
+  bottom: 50px;
+  left: 51%;
+  border-radius: 20% 5%;
+}
+
+.plinio-e-eu img{
+  position: absolute;
+  width: 17.7%;
+  bottom: 50px;
+  left: 67.8%;
+  border-radius: 20% 5%;
+}
+
+.irma img{
+  position: fixed;
+  width: 15%;
+  bottom: 236px;
+  left: 51%;
+  border-radius: 20% 5%;
+}
+
+
+/*ESTRELA SOBRE*/
+
+.estrelasobre1{
+  background: none;
+  background-color: transparent;
+  font-size: 40px;
+  position: fixed;
+  bottom: 53%;
+  left: 745px;
+  z-index: -1; 
+}
+
+/*------------PORTFOLIO-------------*/
+.portdesculpa{
+  background-color: black;
+  position: absolute;
+  left: 39%;
+  bottom: 70%;
+  font-size: 20px;
+  text-align: center;
+  padding: 3px 10px;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 100px;
+}
+.pdf a{
+  display: inline-block;
+  color: white;
+  width:200px;
+  background-color: black;
+  position: absolute;
+  left: 39%;
+  bottom: 10%;
+  font-size: 20px;
+  text-align: center;
+  padding: 3px 100px;
+  border: 2px solid black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 100px;  
+}
+
+.pdf a:hover{
+  display: inline-block;  
+  background-color: rgb(230, 196, 42);
+  color: black;
+
+
+}
+
+.construcaoimg img{
+  position: fixed;
+  width: 100%;
+  bottom: 15%;
+  left: 0;
+}
+
+/*------------CONTATE - ME--------------*/
+
+
+.contatostyle {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  border-radius: 1px;
+  font-family:'Segoe UI';
+  font-weight: bold;
+  position: fixed;
+  bottom: 70px;
+  right: 455px;
+}
+
+.contatostyle:hover{
+  color: white;
+  background-color: black;
+}
+
+.entre-em-contato{
+  position: fixed;
+  bottom: 62%;
+  left: 34.5%;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #676261;
+  font-weight: 600;
+
+}
+
+.link-whatsapp{
+  position: absolute;
+  bottom: 59%;
+  left: 43.5%;
+  color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  font-size: 21px;
+
+
+}
+
+
+.email{
+  position: absolute;
+  bottom: 50%;
+  left:39%;
+  font-size:25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formulario{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  bottom: 19%;
+  left: 44%;
+  
+}
+
+/*----------FORMAÇÕES----------*/
+
+.formacoes{
+  font-family: 'Gill Sans', 'Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+  position: fixed;
+  bottom: 35%;
+  left: 10%;  
+}
+
+.linha-vertical{
+  position: fixed;
+  height: 400px;
+  width: 2px;
+  background-color: #000000;
+  bottom: 24%;
+  left: 50%;
+}
+
+.uninter-nome{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.etec-nome{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.colegio-nome{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.uninter-conclusao{
+  font-size: 20px;
+
+}
+
+
+.habilidades {
+  position: fixed;
+  bottom: 40%;
+  left: 52%;
+}
+
+.micro-office{
+  font-size: 24px;
+}
+
+.autocad{
+  font-size: 24px;
+}
+
+.desenho-civil{
+  font-size: 24px;
+}
+
+.ingles{
+  font-size: 24px;
+}
+
+.espanhol{
+  font-size: 24px;
+}
